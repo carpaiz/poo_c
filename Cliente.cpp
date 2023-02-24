@@ -41,7 +41,7 @@ class Cliente : Persona {
 		cout<<"Metodo leer de cliente"<<endl;
 		
 	}
-	void actuaalizar(){
+	void actualizar(){
 		cout<<"Metodo actualizar de cliente"<<endl;
 		
 	}

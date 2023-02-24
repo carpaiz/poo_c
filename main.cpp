@@ -23,7 +23,7 @@ main(){
 	obj.mostrar();
 	obj.crear();
 	obj.leer();
-	obj.actuaalizar();
+	obj.actualizar();
 	obj.borrar();
 	/*
 	cout<<"Modificar Nit:";
