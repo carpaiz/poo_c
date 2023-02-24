@@ -33,5 +33,21 @@ class Cliente : Persona {
 		cout<<"Telefono:"<<telefono<<endl;
 		cout<<"Nacimiento:"<<fn<<endl;
 	}
+	void crear(){
+		cout<<"Metodo crear de cliente"<<endl;
+		
+	}
+	void leer(){
+		cout<<"Metodo leer de cliente"<<endl;
+		
+	}
+	void actuaalizar(){
+		cout<<"Metodo actualizar de cliente"<<endl;
+		
+	}
+	void borrar(){
+		cout<<"Metodo barrar de cliente"<<endl;
+		
+	}
 	
 };

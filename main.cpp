@@ -17,9 +17,15 @@ main(){
 	cout<<"Ingrese Telefono:";
 	cin>>tel;
 	
+	
 	// instancia de un objeto
 	Cliente obj = Cliente(nom,ape,dir,tel,fn,n);
 	obj.mostrar();
+	obj.crear();
+	obj.leer();
+	obj.actuaalizar();
+	obj.borrar();
+	/*
 	cout<<"Modificar Nit:";
 	cin>>n;
 	cout<<"Modificar Nombres:";
@@ -47,6 +53,6 @@ main(){
 	cout<<"Telefono Modificado:"<<obj.getTelefono()<<endl;
 	cout<<"Nacimiento Modificado:"<<obj.getFN()<<endl;
 	//obj.mostrar();
-	
+	*/
 	
 }
